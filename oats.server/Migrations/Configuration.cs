@@ -9,7 +9,7 @@ namespace oats.server.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "OatsServerContext";
         }
 
